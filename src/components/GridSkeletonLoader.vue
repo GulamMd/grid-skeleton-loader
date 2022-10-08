@@ -232,4 +232,13 @@ export default {
 .each-row {
   border-top: 1px solid lightgrey;
 }
+
+.v-text-field{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.table-toolbar{
+  padding: 10px 15px 10px 15px;
+}
 </style>
