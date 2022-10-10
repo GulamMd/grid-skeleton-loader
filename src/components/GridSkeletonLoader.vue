@@ -241,4 +241,8 @@ export default {
 .table-toolbar{
   padding: 10px 15px 10px 15px;
 }
+
+.col:has(.v-skeleton-loader){
+  padding-top: 16px;
+}
 </style>
