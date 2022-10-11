@@ -189,15 +189,24 @@ export default {
     },
   },
   methods: {
+    /**
+     * Methods for refresh table
+     */
     refreshTable() {
       this.loading = true;
       setTimeout(() => {
         this.loading = false;
       }, 2000);
     },
+     /**
+     * Methods for reset search
+     */
     resetSearch() {
       this.searchInternal();
     },
+     /**
+     * Methods for search data from table
+     */
     searchInternal() {
       let searchTxt = this.search.trim().toLowerCase();
       if (searchTxt === "") {

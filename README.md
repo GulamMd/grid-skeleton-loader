@@ -1,5 +1,7 @@
 # vuetify-grid-skeleton-loader
-
+```
+A component to see loader   
+```
 ## Project setup
 ```
 npm install
